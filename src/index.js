@@ -21,7 +21,7 @@ class ToolButton extends React.Component {
   // }
   render() {
     return(
-    <div className="main_layout">
+    <div class="container-fluid main_layout">
       <div id="panel-left">
         <div id='panel-navigation'>
         </div>
@@ -29,12 +29,13 @@ class ToolButton extends React.Component {
         </div>
       
     </div>
-      <Container id='mid-layout'>
-        <ImageHolder className='panel-controller'></ImageHolder>
-        
-      </Container>
-      <div id='img-placeholer'></div>
-        <div id='panel-tools'></div>
+    <div class='container' id='panel-tools'>
+        <div ></div>
+      </div>
+      <div class='container' id='mid-layout'>
+        <div id='img-placeholer'></div>
+      </div>
+      
     </div>
     
     );
